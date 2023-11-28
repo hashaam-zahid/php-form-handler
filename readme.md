@@ -59,8 +59,6 @@ Instantiate the `FormHandler` class and use its methods to process form submissi
 ### Example:
 
 ```php
-
-<?php
 // Include autoload file
 require_once 'path/to/vendor/autoload.php';
 
@@ -88,8 +86,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo $result['message'];
     }
 }
-?>
-```php
+```
 ### Contributing
 Contributions are welcome! Feel free to fork the repository, make changes, and create pull requests.
 
